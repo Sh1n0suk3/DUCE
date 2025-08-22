@@ -533,7 +533,7 @@ advanced_tab = [
     ],
     [
         sg.Checkbox(
-            "Enrol in Discounted courses only",
+            "Enroll in Discounted courses only",
             key="discounted_only",
             default=udemy.settings["discounted_only"],
         )
@@ -705,7 +705,7 @@ main_lo = [
     ],
     [
         sg.Button(key="Exit", image_data=exit_),
-        sg.Text("Made with 🩷 by techtanic", justification="right", expand_x=True),
+        sg.Text("Made with love by techtanic", justification="right", expand_x=True),
     ],
 ]
 
@@ -791,3 +791,4 @@ while True:
         menu = values["Update-Menu"]
         main_window["mn"].update(menu)
 main_window.close()
+
